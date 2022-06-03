@@ -2,7 +2,7 @@ import Bars from "./components/bars";
 
 const App = () => {
   return (
-    <div className="app-wrapper bg-black">
+    <div className="app-wrapper">
       <Bars />
     </div>
   );

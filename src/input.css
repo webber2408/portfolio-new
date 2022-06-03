@@ -1,3 +1,90 @@
+/*===================================================================
+
+		TABLE OF CONTENTS		
+		
+		1. RESET
+		2. TABLES
+		3. MISC
+		4. BACKGROUND PATERNS
+			  LEFT SIDE
+			  RIGHT SIDE
+		5. NAVIGATION
+		6. HOME
+			  SLIDER
+				FLEX SLIDER - SLIDES CONTENT
+				FLEX SLIDER - SLIDER NAVIGATION
+				FLEX SLIDER - IMAGE SLIDER
+			  BOXES
+			  BOXES GRID
+			  BUTTONS
+			  TWITTER
+			  ALIGNMENT
+		7. ABOUT	
+			  TOGGLE PANELS
+			  LISTS
+			  BOX ICONS PREVIEW
+		8. PORTFOLIO
+			  PORTFOLIO ISOTOPE STYLING
+		9. BLOG
+			  BLOG COMMENTS
+	   10. CONTACT
+			  SOCIAL LINKS
+			
+================================================*/
+
+/********************BEGIN RESET********************/
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+p,
+div,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+ul,
+ol,
+dl,
+dd,
+dt,
+form,
+pagele,
+td,
+tr,
+blockquote,
+iframe {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  border-collapse: separate;
+  border-spacing: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #747474;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  line-height: 20px;
+  background-color: #f7f7f7;
+}
+
+* :focus {
+  outline: 0;
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: url("./assets/fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*******************END RESET**************************-*/
