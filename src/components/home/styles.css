@@ -1,8 +1,5 @@
 @import "../../common/styles.css";
 
-.home-wrapper {
-  min-height: 500px;
-}
 .about-img {
   margin-right: 30px;
 }

@@ -3,6 +3,10 @@ export default {
     title: "Home",
     link: "home",
   },
+  BLOG: {
+    title: "Blog",
+    link: "blog",
+  },
   WORKEX: {
     title: "Work Experience",
     link: "workex",
@@ -10,10 +14,6 @@ export default {
   PROJECTS: {
     title: "Projects",
     link: "projects",
-  },
-  BLOG: {
-    title: "Blog",
-    link: "blog",
   },
   TESTIMONIAL: {
     title: "Testimonial",
