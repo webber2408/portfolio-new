@@ -42,6 +42,19 @@ const Home = () => {
           >
             View Resume
           </a>
+          <a className="button" href="https://learndapp.in" target="_blank">
+            LearnDapp.in
+          </a>
+          <a
+            className="button"
+            href="https://rsharma.in/posts/posts.html"
+            target="_blank"
+          >
+            JS Snippets
+          </a>
+          <a className="button" href="https://blog.rsharma.in/" target="_blank">
+            Blog | Hashnode
+          </a>
         </div>
       </div>
       <div className="separator-line"></div>

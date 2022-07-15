@@ -34,7 +34,7 @@ const Blog = () => {
           href="https://www.learndapp.in/docs/blockchain_architecture"
           target="_blank"
         >
-          Read More
+          Read more on LearnDapp
         </a>
         <br />
         <br />
@@ -64,7 +64,7 @@ const Blog = () => {
           href="https://www.learndapp.in/docs/why_do_we_need_blockchain"
           target="_blank"
         >
-          Read More
+          Read more on LearnDapp
         </a>
       </div>
       <div className="separator-line"></div>

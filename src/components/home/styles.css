@@ -3,6 +3,11 @@
 .about-img {
   margin-right: 30px;
 }
+
+.about-img > img {
+  border: 0px;
+  padding: 0px;
+}
 .about-text {
   width: 408px;
 }
@@ -22,6 +27,10 @@
 .about-wrapper {
   display: flex;
   margin-bottom: 10px;
+}
+
+.about-text > .button {
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 920px) {

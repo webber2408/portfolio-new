@@ -13,6 +13,10 @@
   padding-bottom: 10px;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 p {
   padding-bottom: 15px;
 }
@@ -31,6 +35,10 @@ p {
   background: #db7030;
   display: inline-block;
   margin-bottom: 15px;
+}
+.button:hover {
+  background: #8c8c8c;
+  text-decoration: none;
 }
 
 img {
