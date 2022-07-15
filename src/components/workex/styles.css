@@ -1,5 +1,35 @@
-.workex-wrapper {
-  height: 500px;
-  background-color: #feab6b;
-  opacity: 0.4;
+@import "../../common/styles.css";
+
+.workex-content-wrapper {
+  margin-bottom: 10px;
+}
+
+.workex-content-wrapper > h6 {
+  font-weight: bold;
+}
+
+.colored-company {
+  color: #db7030;
+}
+
+@media only screen and (max-width: 920px) {
+  .workex-wrapper {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .workex-wrapper > h2,
+  .workex-wrapper > p {
+    text-align: left;
+  }
+}
+
+/* SMALL SCREENS | MOBILE */
+@media only screen and (max-width: 768px) {
+  .workex-wrapper {
+    flex-direction: column;
+  }
+  .workex-text {
+    width: fit-content;
+  }
 }

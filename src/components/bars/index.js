@@ -71,10 +71,10 @@ const Bars = () => {
         <Suspense fallback={<div>Loading</div>}>
           <Home />
           <Blog />
-          <Contact />
           <WorkEx />
           <Projects />
           <Testimonial />
+          <Contact />
         </Suspense>
       </div>
     </>
