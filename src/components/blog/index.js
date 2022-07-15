@@ -13,7 +13,7 @@ const Blog = () => {
       <h2>Latest from the blog</h2>
       <p className="sub-title">Learn Decentralized Application Programming</p>
       <div className="blog-content-wrapper">
-        <h3>Blockchain Architecture</h3>
+        <h3>Blockchain Architecture | By Rahul Sharma</h3>
         <h6 onClick={() => (window.location.href = "https://learndapp.in")}>
           learndapp.in
         </h6>
@@ -40,7 +40,7 @@ const Blog = () => {
         <br />
         <br />
         <br />
-        <h3>Need of Blockchain</h3>
+        <h3>Need of Blockchain | By Rahul Sharma</h3>
         <h6 onClick={() => (window.location.href = "https://learndapp.in")}>
           learndapp.in
         </h6>
