@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-
-import Home from "../home";
-import WorkEx from "../workex";
-import Projects from "../projects";
-import Blog from "../blog";
-import Testimonial from "../testimonial";
-import Contact from "../contact";
 
 import tabs from "../tabs";
 
 import "./styles.css";
+
+const Contact = React.lazy(() => import("../contact"));
+const Testimonial = React.lazy(() => import("../testimonial"));
+const Blog = React.lazy(() => import("../blog"));
+const Projects = React.lazy(() => import("../projects"));
+const WorkEx = React.lazy(() => import("../workex"));
+const Home = React.lazy(() => import("../home"));
 
 const Bars = () => {
   const [leftVisible, setLeftVisible] = useState(true);
@@ -68,12 +68,14 @@ const Bars = () => {
         </nav>
       </div>
       <div className="right">
-        <Home />
-        <WorkEx />
-        <Projects />
-        <Blog />
-        <Testimonial />
-        <Contact />
+        <Suspense fallback={<div>Loading</div>}>
+          <Home />
+          <Contact />
+          <WorkEx />
+          <Projects />
+          <Blog />
+          <Testimonial />
+        </Suspense>
       </div>
     </>
   );

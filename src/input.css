@@ -76,6 +76,33 @@ body {
   background-color: #f7f7f7;
 }
 
+/* div {
+  width: 100%;
+} */
+
+h1,
+h2,
+h3,
+h5 {
+  font-family: Bebas, Arial, sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 36px;
+  color: #2b2b2b;
+  text-align: right;
+  line-height: 36px;
+}
+
+h3 {
+  color: #616161;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
 * :focus {
   outline: 0;
 }

@@ -1,5 +1,51 @@
+@import "../../common/styles.css";
+
 .home-wrapper {
-  height: 500px;
-  background-color: aquamarine;
-  opacity: 0.4;
+  min-height: 500px;
+}
+.about-img {
+  margin-right: 30px;
+}
+.about-text {
+  width: 408px;
+}
+.about-text > h3 {
+  font-size: 30px;
+  color: #db7030;
+  line-height: 30px;
+  margin: 20px 0 5px 0;
+}
+
+.about-text > h5 {
+  font-size: 20px;
+  color: #db7030;
+  line-height: 20px;
+  margin: 5px 0 20px 0;
+}
+.about-wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 920px) {
+  .home-wrapper {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home-wrapper > h2,
+  .home-wrapper > p {
+    text-align: left;
+  }
+}
+
+/* SMALL SCREENS | MOBILE */
+@media only screen and (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+  .about-text {
+    width: fit-content;
+  }
 }

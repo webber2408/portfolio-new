@@ -1,26 +1,8 @@
 /* ENABLE LEFT DISABLE LEFT MENU ICON*/
 @media only screen and (min-width: 920px) {
-  .left-menu-icon {
-    display: none !important;
-  }
 }
 
-/* DISABLE LEFT | ENABLE LEFT MENU ICON */
 @media only screen and (max-width: 920px) {
-  .left-menu-icon {
-    display: block !important;
-  }
-  .left {
-    width: 50%;
-    z-index: 100;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-  }
-  .right {
-    width: 100%;
-    background-color: #f7f7f7;
-    float: none;
-  }
 }
 
 /* SMALL SCREENS | MOBILE */
@@ -29,7 +11,4 @@
 
 /* MOBILE */
 @media only screen and (max-width: 420px) {
-  .left {
-    width: 100%;
-  }
 }
