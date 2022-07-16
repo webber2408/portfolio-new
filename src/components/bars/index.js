@@ -6,12 +6,20 @@ import tabs from "../tabs";
 
 import "./styles.css";
 
-const Recommendation = React.lazy(() => import("../recommendation"));
-const Blog = React.lazy(() => import("../blog"));
-const Projects = React.lazy(() => import("../projects"));
-const WorkEx = React.lazy(() => import("../workex"));
-const Home = React.lazy(() => import("../home"));
-const Education = React.lazy(() => import("../education"));
+const Recommendation = React.lazy(() =>
+  import(/*webpackChunkName: "recommendation"*/ "../recommendation")
+);
+const Blog = React.lazy(() => import(/*webpackChunkName: "blog"*/ "../blog"));
+const Projects = React.lazy(() =>
+  import(/*webpackChunkName: "projects"*/ "../projects")
+);
+const WorkEx = React.lazy(() =>
+  import(/*webpackChunkName: "workex"*/ "../workex")
+);
+const Home = React.lazy(() => import(/*webpackChunkName: "home"*/ "../home"));
+const Education = React.lazy(() =>
+  import(/*webpackChunkName: "education"*/ "../education")
+);
 
 const Bars = () => {
   const [leftVisible, setLeftVisible] = useState(true);
