@@ -11,6 +11,7 @@ const Blog = React.lazy(() => import("../blog"));
 const Projects = React.lazy(() => import("../projects"));
 const WorkEx = React.lazy(() => import("../workex"));
 const Home = React.lazy(() => import("../home"));
+const Education = React.lazy(() => import("../education"));
 
 const Bars = () => {
   const [leftVisible, setLeftVisible] = useState(true);
@@ -72,6 +73,7 @@ const Bars = () => {
           <Blog />
           <WorkEx />
           <Projects />
+          <Education />
           <Recommendation />
         </Suspense>
       </div>

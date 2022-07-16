@@ -1,0 +1,28 @@
+@import "../../common/styles.css";
+
+.education-content-wrapper {
+  margin-bottom: 10px;
+}
+
+.education-content-wrapper > h6 {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 920px) {
+  .education-wrapper {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .education-wrapper > h2,
+  .education-wrapper > p {
+    text-align: left;
+  }
+}
+
+/* SMALL SCREENS | MOBILE */
+@media only screen and (max-width: 768px) {
+  .education-wrapper {
+    flex-direction: column;
+  }
+}
