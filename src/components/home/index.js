@@ -38,7 +38,7 @@ const Home = () => {
 
           <a
             className="button"
-            href="https://pdfhost.io/v/J6.cD1qj._Resume_Rahul_Sharma"
+            href="https://drive.google.com/file/d/1CDtaxBNzSjzz3J46s8_kLGRNg3mEB1IR/view?usp=sharing"
             target="_blank"
           >
             View Resume
