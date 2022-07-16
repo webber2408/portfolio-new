@@ -48,7 +48,7 @@ const Home = () => {
           </a>
           <a
             className="button"
-            href="https://rsharma.in/posts/posts.html"
+            href="https://legacy.rsharma.in/posts/posts.html"
             target="_blank"
           >
             JS Snippets
@@ -56,7 +56,11 @@ const Home = () => {
           <a className="button" href="https://blog.rsharma.in/" target="_blank">
             Blog | Hashnode
           </a>
-          <a className="button" href="https://blog.rsharma.in/" target="_blank">
+          <a
+            className="button"
+            href="https://legacy.rsharma.in"
+            target="_blank"
+          >
             Visit rsharma.in (LEGACY)
           </a>
           <div className="social-wrapper">
