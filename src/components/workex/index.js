@@ -15,7 +15,7 @@ const WorkEx = () => {
       <div className="workex-content-wrapper">
         <h3>
           Software Engineer - Frontend Intern{" "}
-          <span className="colored-company"> @ Tatari Inc.</span>
+          <span className="colored-text"> @ Tatari Inc.</span>
         </h3>
         <h6>SAN FRANCISCO, USA | JULY 2022 - PRESENT</h6>
         <br />
@@ -36,7 +36,7 @@ const WorkEx = () => {
         <br />
         <h3>
           Software Engineer (L1) - Full Stack{" "}
-          <span className="colored-company"> @ Squareboat</span>
+          <span className="colored-text"> @ Squareboat</span>
         </h3>
         <h6>GURUGRAM, INDIA | OCTOBER 2020 - JULY 2021</h6>
         <br />
@@ -53,7 +53,7 @@ const WorkEx = () => {
         <br />
         <h3>
           Software Engineer - Full Stack{" "}
-          <span className="colored-company"> @ Fundwave</span>
+          <span className="colored-text"> @ Fundwave</span>
         </h3>
         <h6>NEW DELHI, INDIA | FEBRUARY 2019 - MARCH 2020</h6>
         <br />
@@ -77,7 +77,7 @@ const WorkEx = () => {
         <br />
         <h3>
           Information Technology Trainee{" "}
-          <span className="colored-company"> @ NTPC Limited</span>
+          <span className="colored-text"> @ NTPC Limited</span>
         </h3>
         <h6>NOIDA, INDIA | JUNE 2018 - JULY 2018</h6>
         <br />

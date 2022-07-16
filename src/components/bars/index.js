@@ -6,7 +6,6 @@ import tabs from "../tabs";
 
 import "./styles.css";
 
-const Contact = React.lazy(() => import("../contact"));
 const Recommendation = React.lazy(() => import("../recommendation"));
 const Blog = React.lazy(() => import("../blog"));
 const Projects = React.lazy(() => import("../projects"));
@@ -74,7 +73,6 @@ const Bars = () => {
           <WorkEx />
           <Projects />
           <Recommendation />
-          <Contact />
         </Suspense>
       </div>
     </>

@@ -13,6 +13,10 @@
   padding-bottom: 10px;
 }
 
+.colored-text {
+  color: #db7030;
+}
+
 a:hover {
   cursor: pointer;
 }

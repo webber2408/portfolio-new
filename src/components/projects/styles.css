@@ -1,5 +1,40 @@
-.projects-wrapper {
-  height: 500px;
-  background-color: #9bcfe0;
-  opacity: 0.4;
+@import "../../common/styles.css";
+
+.projects-content-wrapper {
+  margin-bottom: 10px;
+}
+
+.projects-content-wrapper > h6 {
+  font-weight: bold;
+}
+
+.projects-content-wrapper > .button {
+  margin-right: 10px;
+}
+
+.github-actions {
+  display: flex;
+}
+
+.github-actions > iframe {
+  width: 62px;
+}
+
+@media only screen and (max-width: 920px) {
+  .projects-wrapper {
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .projects-wrapper > h2,
+  .projects-wrapper > p {
+    text-align: left;
+  }
+}
+
+/* SMALL SCREENS | MOBILE */
+@media only screen and (max-width: 768px) {
+  .projects-wrapper {
+    flex-direction: column;
+  }
 }

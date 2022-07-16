@@ -4,6 +4,9 @@ import tabs from "../tabs";
 
 import BlockchainArchitectureThumbnail from "../../assets/images/blog_blockchain_architecture.png";
 import BlockchainNeedThumbnail from "../../assets/images/blog_blockchain_need.png";
+import Oop1 from "../../assets/images/oop1.png";
+import Oop2 from "../../assets/images/oop2.png";
+import Oop3 from "../../assets/images/oop3.png";
 
 import "./styles.css";
 
@@ -65,6 +68,90 @@ const Blog = () => {
           target="_blank"
         >
           Read more on LearnDapp
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>Object-Oriented Programming (Part I) | By Rahul Sharma</h3>
+        <h6 onClick={() => (window.location.href = "https://blog.rsharma.in")}>
+          blog.rsharma.in
+        </h6>
+        <br />
+        <img src={Oop1} />
+        <br />
+        <p>
+          We have been battling with learning Object-Oriented Programming from
+          various resources, be it textbooks, online materials, videos, and so
+          on. We somehow grasp the concept, but when it comes to the interview,
+          we are stuck with one simple yet unanswerable question. <br />
+          “How will I revise my OOP concept now? I definitely can’t go through
+          all of my previous resources!”
+        </p>
+        <a
+          className="button"
+          href="https://blog.rsharma.in/object-oriented-programming-c-the-easy-way-part-i"
+          target="_blank"
+        >
+          Read more on Hashnode
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>Object-Oriented Programming (Part II) | By Rahul Sharma</h3>
+        <h6 onClick={() => (window.location.href = "https://blog.rsharma.in")}>
+          blog.rsharma.in
+        </h6>
+        <br />
+        <img src={Oop2} />
+        <br />
+        <p>
+          What’s up fellas? This what you see is the second part of my
+          Object-Oriented Programming concepts series. I would be covering some
+          interesting stuff including Copy Constructors, Friend functions,
+          Structs and many more.
+          <br />
+          Did you know that we could copy our constructors?
+          <br />
+          If we go by the literal definition, a Copy Constructor simply means an
+          overloaded constructor used to declare and initialize an object of a
+          particular class from another object of the same class.
+        </p>
+        <a
+          className="button"
+          href="https://blog.rsharma.in/object-oriented-programming-c-the-easy-way-part-ii"
+          target="_blank"
+        >
+          Read more on Hashnode
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <h3>Object-Oriented Programming (Part III) | By Rahul Sharma</h3>
+        <h6 onClick={() => (window.location.href = "https://blog.rsharma.in")}>
+          blog.rsharma.in
+        </h6>
+        <br />
+        <img src={Oop3} />
+        <br />
+        <p>
+          We need inheritance because no one wants to redo/reimplement a
+          function that has already been implemented! I mean who would want
+          that?
+          <br />
+          Reusability is one of the most important features of Inheritance. It
+          is not always about doing extra work but the already done work might
+          have also been tested well for any bugs and you obviously don’t want
+          to go through that painful cycle again! Hence, just Reuse.
+        </p>
+        <a
+          className="button"
+          href="https://blog.rsharma.in/object-oriented-programming-c-inheritance-or-the-easy-way-part-iii"
+          target="_blank"
+        >
+          Read more on Hashnode
         </a>
       </div>
       <div className="separator-line"></div>

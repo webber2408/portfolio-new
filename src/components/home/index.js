@@ -2,6 +2,7 @@ import React from "react";
 
 import tabs from "../tabs";
 import ProfilePhoto from "../../assets/images/profile_photo.png";
+import LinkedinIcon from "../../assets/images/linkedin.png";
 
 import "./styles.css";
 
@@ -55,8 +56,30 @@ const Home = () => {
           <a className="button" href="https://blog.rsharma.in/" target="_blank">
             Blog | Hashnode
           </a>
+          <a className="button" href="https://blog.rsharma.in/" target="_blank">
+            Visit rsharma.in (LEGACY)
+          </a>
+          <div className="social-wrapper">
+            <img
+              src={LinkedinIcon}
+              width={20}
+              height={20}
+              onClick={() => {
+                window.location.href = "https://www.linkedin.com/in/rahul2408/";
+              }}
+            />
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=webber2408&type=follow&count=true"
+              frameborder="0"
+              scrolling="0"
+              width="170"
+              height="20"
+              title="GitHub"
+            ></iframe>
+          </div>
         </div>
       </div>
+
       <div className="separator-line"></div>
     </section>
   );

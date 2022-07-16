@@ -8,10 +8,6 @@
   font-weight: bold;
 }
 
-.colored-company {
-  color: #db7030;
-}
-
 @media only screen and (max-width: 920px) {
   .workex-wrapper {
     padding-top: 80px;
