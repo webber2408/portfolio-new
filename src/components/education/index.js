@@ -30,7 +30,7 @@ const Education = () => {
             Jaypee Institute of Information Technology
           </span>
         </h3>
-        <h6>NEW DELHI, INDIA | FEBRUARY 2019 - MARCH 2020</h6>
+        <h6>NEW DELHI, INDIA | AUGUST 2015 - JULY 2019</h6>
         <br />
       </div>
       <div className="separator-line"></div>
