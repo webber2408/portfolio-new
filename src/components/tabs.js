@@ -19,24 +19,24 @@ export default {
     title: "Education",
     link: "education",
   },
-  LEARNDAPP: {
-    title: "About LearnDAPP",
-    link: "learndapp",
-  },
-  JS: {
-    title: "♥ for JS",
-    link: "js",
-  },
+  // LEARNDAPP: {
+  //   title: "About LearnDAPP",
+  //   link: "learndapp",
+  // },
+  // JS: {
+  //   title: "♥ for JS",
+  //   link: "js",
+  // },
   RECOMMENDATION: {
     title: "Recommendations",
     link: "recommendation",
   },
-  QUOTEOFTHEDAY: {
-    title: "What keeps me going?",
-    link: "quote",
-  },
-  THISWEBSITE: {
-    title: "About this site",
-    link: "thiswebsite",
-  },
+  // QUOTEOFTHEDAY: {
+  //   title: "What keeps me going?",
+  //   link: "quote",
+  // },
+  // THISWEBSITE: {
+  //   title: "About this site",
+  //   link: "thiswebsite",
+  // },
 };
