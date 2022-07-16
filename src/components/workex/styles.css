@@ -29,7 +29,4 @@
   .workex-wrapper {
     flex-direction: column;
   }
-  .workex-text {
-    width: fit-content;
-  }
 }

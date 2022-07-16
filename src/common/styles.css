@@ -47,6 +47,14 @@ img {
   padding: 4px;
 }
 
+blockquote {
+  background: url(../assets/images/blockquotes.png) no-repeat;
+  font-size: 13px;
+  font-style: italic;
+  padding-left: 40px;
+  margin: 20px 0 20px 20px;
+}
+
 @media only screen and (max-width: 920px) {
   .cm-portfolio-section {
     max-width: 680px;

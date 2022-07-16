@@ -1,28 +1,32 @@
 @import "../../common/styles.css";
 
-.blog-content-wrapper {
+.recommendation-content-wrapper {
   margin-bottom: 10px;
 }
 
-.blog-content-wrapper > h6 {
+.recommendation-content-wrapper > h6 {
   font-weight: bold;
 }
 
+.author {
+  color: #db7030;
+}
+
 @media only screen and (max-width: 920px) {
-  .blog-wrapper {
+  .recommendation-wrapper {
     padding-top: 80px;
     margin-left: auto;
     margin-right: auto;
   }
-  .blog-wrapper > h2,
-  .blog-wrapper > p {
+  .recommendation-wrapper > h2,
+  .recommendation-wrapper > p {
     text-align: left;
   }
 }
 
 /* SMALL SCREENS | MOBILE */
 @media only screen and (max-width: 768px) {
-  .blog-wrapper {
+  .recommendation-wrapper {
     flex-direction: column;
   }
 }

@@ -21,16 +21,16 @@ const WorkEx = () => {
         <br />
         <p>
           Tackling the migration from a single planner dashboard to multiweek
-          dashboard <br />
+          dashboard. <br />
           Working on overall web optimization incorporating code-splitting
-          within the app using Webpack splitchunks and React.lazy()
+          within the app using Webpack splitchunks and React.lazy().
           <br />
           Recomissioned Version Notifier using Webpack to notifiy users of any
-          new updates pushed to the app
+          new updates pushed to the app.
           <br />
           Working on improving the overall build process and reducing the time
-          taken by the same by analyzing/researching through MVP various
-          propsects of various bundlers involving Webpack, Vite, Rollup, etc.
+          taken by the same. Analyzing/Researching through MVP of various
+          bundlers involving Webpack, Vite, Rollup, etc.
         </p>
         <br />
         <br />

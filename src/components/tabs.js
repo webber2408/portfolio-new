@@ -15,9 +15,9 @@ export default {
     title: "Projects",
     link: "projects",
   },
-  TESTIMONIAL: {
-    title: "Testimonial",
-    link: "testimonial",
+  RECOMMENDATION: {
+    title: "Recommendation",
+    link: "recommendation",
   },
   CONTACT: {
     title: "Contact",
