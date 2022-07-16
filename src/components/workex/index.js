@@ -20,7 +20,7 @@ const WorkEx = () => {
         <h6>SAN FRANCISCO, USA | JULY 2022 - PRESENT</h6>
         <br />
         <p>
-          Tackling the migration from a single planner dashboard to multiweek
+          Involved in the migration from a single planner dashboard to multiweek
           dashboard. <br />
           Working on overall web optimization incorporating code-splitting
           within the app using Webpack splitchunks and React.lazy().
