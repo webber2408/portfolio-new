@@ -1,5 +1,10 @@
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+
 module.exports = function override(config, env) {
-  //do stuff with the webpack config...
+  // Remove default terser minimizer
+  config.optimization.minimizer.shift();
+  // Enable Uglify JS minimizer
+  config.optimization.minimizer.push(new UglifyJsPlugin());
   console.log(config);
   return config;
 };
