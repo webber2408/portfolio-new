@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import tabs from "../tabs";
 import ProfilePhoto from "../../assets/images/profile_photo.png";
 import LinkedinIcon from "../../assets/images/linkedin.png";
 
 import "./styles.css";
+import Lamp from "../lamp";
 
 const Home = () => {
+  const [isLampOn, setIsLampOn] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setIsLampOn(true), 1000);
+  }, []);
+
   return (
     <section className="home-wrapper cm-portfolio-section" id={tabs.HOME.link}>
+      <Lamp isOn={isLampOn} onLampClick={() => setIsLampOn(!isLampOn)} />
       <h2>RAHUL SHARMA</h2>
       <p className="sub-title">Software Engineer & JS ♥'er</p>
       <div className="about-wrapper">
@@ -74,7 +82,7 @@ const Home = () => {
             />
             <iframe
               src="https://ghbtns.com/github-btn.html?user=webber2408&type=follow&count=true"
-              frameborder="0"
+              frameBorder="0"
               scrolling="0"
               width="170"
               height="20"

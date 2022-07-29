@@ -21,8 +21,8 @@ const Recommendation = () => {
             insightfulness, his keen learning attitude and bold resolution to
             achieve goals.
           </p>
-          <div class="author">Dr. Anuja Arora, Associate Professor</div>
-          <div class="author">
+          <div className="author">Dr. Anuja Arora, Associate Professor</div>
+          <div className="author">
             Jaypee Institute of Information Technology, Noida
           </div>
         </blockquote>
@@ -35,8 +35,8 @@ const Recommendation = () => {
             and debate was delightful as we often delved into engaging
             discussions on different matters.
           </p>
-          <div class="author">Dr. Parmeet Kaur, Associate Professor</div>
-          <div class="author">
+          <div className="author">Dr. Parmeet Kaur, Associate Professor</div>
+          <div className="author">
             Jaypee Institute of Information Technology, Noida
           </div>
         </blockquote>
@@ -48,8 +48,8 @@ const Recommendation = () => {
             anything which he has picked. A quick learner, reliable and
             easy-going guy to work with.
           </p>
-          <div class="author">Sunil Kumar, Co-founder & CTO</div>
-          <div class="author">WUElev8</div>
+          <div className="author">Sunil Kumar, Co-founder & CTO</div>
+          <div className="author">WUElev8</div>
         </blockquote>
         <br />
         <blockquote>
@@ -59,8 +59,8 @@ const Recommendation = () => {
             hands-on approach to problem solving, out-of-the-box thinking and
             diligent attitude has helped INBadlav grow at a fast
           </p>
-          <div class="author">Parimal Mishra, Product Success</div>
-          <div class="author">Sprinkler</div>
+          <div className="author">Parimal Mishra, Product Success</div>
+          <div className="author">Sprinkler</div>
         </blockquote>
       </div>
       <div className="separator-line"></div>

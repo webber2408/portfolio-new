@@ -1,5 +1,9 @@
 @import "../../common/styles.css";
 
+.home-wrapper {
+  position: relative;
+}
+
 .about-img {
   margin-right: 30px;
 }
@@ -46,6 +50,10 @@
 }
 
 @media only screen and (max-width: 920px) {
+  .about-img {
+    margin-top: 80px;
+  }
+
   .home-wrapper {
     padding-top: 80px !important;
     margin-left: auto;
@@ -54,7 +62,7 @@
 
   .home-wrapper > h2,
   .home-wrapper > p {
-    text-align: left;
+    text-align: right;
   }
 }
 

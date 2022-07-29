@@ -63,7 +63,7 @@ const Projects = () => {
         <div className="github-actions">
           <iframe
             src="https://ghbtns.com/github-btn.html?user=webber2408&repo=FrontChain&type=star"
-            frameborder="0"
+            frameBorder="0"
             scrolling="0"
             width="150"
             height="20"
@@ -71,7 +71,7 @@ const Projects = () => {
           ></iframe>
           <iframe
             src="https://ghbtns.com/github-btn.html?user=webber2408&repo=FrontChain&type=fork"
-            frameborder="0"
+            frameBorder="0"
             scrolling="0"
             width="150"
             height="20"
@@ -127,7 +127,7 @@ const Projects = () => {
         <div className="github-actions">
           <iframe
             src="https://ghbtns.com/github-btn.html?user=webber2408&repo=CricketInfo&type=star"
-            frameborder="0"
+            frameBorder="0"
             scrolling="0"
             width="150"
             height="20"
@@ -135,7 +135,7 @@ const Projects = () => {
           ></iframe>
           <iframe
             src="https://ghbtns.com/github-btn.html?user=webber2408&repo=CricketInfo&type=fork"
-            frameborder="0"
+            frameBorder="0"
             scrolling="0"
             width="150"
             height="20"
@@ -166,7 +166,7 @@ const Projects = () => {
         <div className="github-actions">
           <iframe
             src="https://ghbtns.com/github-btn.html?user=webber2408&repo=JSONFormatter&type=star"
-            frameborder="0"
+            frameBorder="0"
             scrolling="0"
             width="150"
             height="20"
@@ -174,7 +174,7 @@ const Projects = () => {
           ></iframe>
           <iframe
             src="https://ghbtns.com/github-btn.html?user=webber2408&repo=JSONFormatter&type=fork"
-            frameborder="0"
+            frameBorder="0"
             scrolling="0"
             width="150"
             height="20"
