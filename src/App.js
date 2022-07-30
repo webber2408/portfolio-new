@@ -5,7 +5,7 @@ const Bars = React.lazy(() => import("./components/bars"));
 const App = () => {
   return (
     <div className="app-wrapper">
-      <Suspense fallback={<div>Loading Bars</div>}>
+      <Suspense fallback={<div></div>}>
         <Bars />
       </Suspense>
     </div>
