@@ -4,6 +4,7 @@ import tabs from "../tabs";
 
 import BlockchainArchitectureThumbnail from "../../assets/images/blog_blockchain_architecture.png";
 import BlockchainNeedThumbnail from "../../assets/images/blog_blockchain_need.png";
+import TatariBlogThumbnail from "../../assets/images/blog_tatari.png";
 import Oop1 from "../../assets/images/oop1.png";
 import Oop2 from "../../assets/images/oop2.png";
 import Oop3 from "../../assets/images/oop3.png";
@@ -16,6 +17,37 @@ const Blog = () => {
       <h2>Latest from the blog</h2>
       <p className="sub-title">Learn Decentralized Application Programming</p>
       <div className="blog-content-wrapper">
+        <h3>Frontend Optimizations @ Tatari | By Rahul Sharma</h3>
+        <h6
+          onClick={() =>
+            (window.location.href =
+              "https://eng.tatari.tv/engineering/2022/08/15/fe-optimizations-at-tatari.html")
+          }
+        >
+          https://eng.tatari.tv/
+        </h6>
+        <br />
+        <img src={TatariBlogThumbnail} />
+        <br />
+        <p>
+          With a growing frontend codebase incorporating various external
+          libraries, we noticed an increase in our bundle sizes and build times.
+          This alarming trend (along with the subpar Lighthouse rating of 49,
+          attached below) led us to undertake a project focused on a series of
+          frontend enhancements and optimizations, which we will cover in this
+          blog.
+        </p>
+        <a
+          className="button"
+          href="https://eng.tatari.tv/engineering/2022/08/15/fe-optimizations-at-tatari.html"
+          target="_blank"
+        >
+          Read more
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
         <h3>Blockchain Architecture | By Rahul Sharma</h3>
         <h6 onClick={() => (window.location.href = "https://learndapp.in")}>
           learndapp.in
