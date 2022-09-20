@@ -46,7 +46,7 @@ const Home = () => {
 
           <a
             className="button"
-            href="https://drive.google.com/file/d/1CDtaxBNzSjzz3J46s8_kLGRNg3mEB1IR/view?usp=sharing"
+            href="https://drive.google.com/file/d/1jKhNASWz5z6wq25FG_43pNPuMmvNreXq/view?usp=sharing"
             target="_blank"
           >
             View Resume
