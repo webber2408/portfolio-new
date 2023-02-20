@@ -14,10 +14,18 @@ const WorkEx = () => {
       <p className="sub-title"></p>
       <div className="workex-content-wrapper">
         <h3>
+          Software Engineer <span className="colored-text"> @ MathWorks</span>
+        </h3>
+        <h6>NATICK, MA, USA | JUNE 2022 - AUGUST 2022</h6>
+        <br />
+        <p></p>
+        <br />
+        <br />
+        <h3>
           Software Engineer - Frontend Intern{" "}
           <span className="colored-text"> @ Tatari Inc.</span>
         </h3>
-        <h6>SAN FRANCISCO, USA | JULY 2022 - PRESENT</h6>
+        <h6>SAN FRANCISCO, CA, USA | JUNE 2022 - AUGUST 2022</h6>
         <br />
         <p>
           Involved in the migration from a single planner dashboard to multiweek
