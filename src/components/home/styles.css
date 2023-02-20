@@ -21,12 +21,14 @@
   line-height: 30px;
   margin: 20px 0 5px 0;
 }
-
 .about-text > h5 {
   font-size: 20px;
   color: #db7030;
   line-height: 20px;
-  margin: 5px 0 20px 0;
+  margin: 5px 0 5px 0;
+}
+.about-text > h5:last-of-type {
+  margin-bottom: 20px;
 }
 .about-wrapper {
   display: flex;
