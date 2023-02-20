@@ -32,9 +32,9 @@ const Home = () => {
         </div>
 
         <div className="about-text">
-          <h3>Software Engineer - FE Intern @ Tatari </h3>
+          <h3>Software Engineer - @ MathWorks </h3>
           <h5> MS(CS), University at Buffalo</h5>
-
+          <h5> BTech(CS), Jaypee Institute of Information Technology</h5>
           <p>
             A Software Engineer by profession and an eager learner from the
             heart. <br /> My introduction to the Computer Science field was made

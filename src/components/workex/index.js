@@ -18,7 +18,7 @@ const WorkEx = () => {
         </h3>
         <h6>NATICK, MA, USA | JUNE 2022 - AUGUST 2022</h6>
         <br />
-        <p></p>
+        <p>Control Design Automation, DAStudio Team</p>
         <br />
         <br />
         <h3>
