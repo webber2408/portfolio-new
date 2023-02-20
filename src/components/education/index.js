@@ -20,7 +20,7 @@ const Education = () => {
             State University of New York at Buffalo
           </span>
         </h3>
-        <h6>BUFFALO, NY | AUGUST 2021 - DECEMBER 2022 (ANTICIPATED)</h6>
+        <h6>BUFFALO, NY | AUGUST 2021 - FEBRUARY 2023</h6>
         <br />
         <br />
         <h3>
