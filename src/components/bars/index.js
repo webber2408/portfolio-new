@@ -20,6 +20,9 @@ const Home = React.lazy(() => import(/*webpackChunkName: "home"*/ "../home"));
 const Education = React.lazy(() =>
   import(/*webpackChunkName: "education"*/ "../education")
 );
+const ThemeSwitcher = React.lazy(() =>
+  import(/*webpackChunkName: "themeSwitcher"*/ "../themeSwitcher")
+);
 
 const Bars = () => {
   const [leftVisible, setLeftVisible] = useState(true);
@@ -72,6 +75,9 @@ const Bars = () => {
                 <a href={`#${tab.link}`}>{tab.title}</a>
               </li>
             ))}
+              <li>
+                <ThemeSwitcher />
+              </li>
           </ul>
         </nav>
       </div>

@@ -46,7 +46,7 @@ const Home = () => {
 
           <a
             className="button"
-            href="https://drive.google.com/file/d/1jKhNASWz5z6wq25FG_43pNPuMmvNreXq/view?usp=sharing"
+            href="https://docs.google.com/document/d/12DN5zYskYPzoNQTDsOLeOsghrqVA68DNJtOxVgyNA74/edit?usp=sharing"
             target="_blank"
           >
             View Resume
@@ -54,23 +54,23 @@ const Home = () => {
           <a className="button" href="https://learndapp.in" target="_blank">
             LearnDapp.in
           </a>
-          <a
+          {/* <a
             className="button"
             href="https://legacy.rsharma.in/posts/posts.html"
             target="_blank"
           >
             JS Snippets
-          </a>
-          <a className="button" href="https://blog.rsharma.in/" target="_blank">
+          </a> */}
+          <a className="button" href="https://rasharma.hashnode.dev/" target="_blank">
             Blog | Hashnode
           </a>
-          <a
+          {/* <a
             className="button"
             href="https://legacy.rsharma.in"
             target="_blank"
           >
             Visit rsharma.in (LEGACY)
-          </a>
+          </a> */}
           <div className="social-wrapper">
             <img
               src={LinkedinIcon}

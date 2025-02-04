@@ -1,3 +1,5 @@
+@import "../../common/styles.css";
+
 .left-menu-icon {
   position: fixed;
   top: 10px;
@@ -49,12 +51,12 @@
 }
 
 .navigation li a:hover {
-  color: #db7030;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 .navigation .active a {
-  color: #db7030;
+  color: var(--primary-color);
 }
 
 .responsive-nav {

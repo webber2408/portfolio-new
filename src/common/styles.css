@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #4E6447;
+}
+
 .cm-portfolio-section {
   padding: 30px 30px 200px 30px;
   max-width: 640px;
@@ -14,7 +18,7 @@
 }
 
 .colored-text {
-  color: #db7030;
+  color: var(--primary-color);
 }
 
 a:hover {
@@ -36,7 +40,7 @@ p {
   font-size: 11px;
   color: #f7f7f7;
   padding: 3px 7px;
-  background: #db7030;
+  background: var(--primary-color);
   display: inline-block;
   margin-bottom: 15px;
 }

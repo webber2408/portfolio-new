@@ -106,8 +106,8 @@ const Blog = () => {
         <br />
         <br />
         <h3>Object-Oriented Programming (Part I) | By Rahul Sharma</h3>
-        <h6 onClick={() => (window.location.href = "https://blog.rsharma.in")}>
-          blog.rsharma.in
+        <h6 onClick={() => (window.location.href = "https://rasharma.hashnode.dev")}>
+          rasharma.hashnode.dev
         </h6>
         <br />
         <img src={Oop1} />
@@ -122,7 +122,7 @@ const Blog = () => {
         </p>
         <a
           className="button"
-          href="https://blog.rsharma.in/object-oriented-programming-c-the-easy-way-part-i"
+          href="https://rasharma.hashnode.dev/object-oriented-programming-c-the-easy-way-part-i"
           target="_blank"
         >
           Read more on Hashnode
@@ -132,8 +132,8 @@ const Blog = () => {
         <br />
         <br />
         <h3>Object-Oriented Programming (Part II) | By Rahul Sharma</h3>
-        <h6 onClick={() => (window.location.href = "https://blog.rsharma.in")}>
-          blog.rsharma.in
+        <h6 onClick={() => (window.location.href = "https://rasharma.hashnode.dev")}>
+          rasharma.hashnode.dev
         </h6>
         <br />
         <img src={Oop2} />
@@ -152,7 +152,7 @@ const Blog = () => {
         </p>
         <a
           className="button"
-          href="https://blog.rsharma.in/object-oriented-programming-c-the-easy-way-part-ii"
+          href="https://rasharma.hashnode.dev/object-oriented-programming-c-the-easy-way-part-ii"
           target="_blank"
         >
           Read more on Hashnode
@@ -162,8 +162,8 @@ const Blog = () => {
         <br />
         <br />
         <h3>Object-Oriented Programming (Part III) | By Rahul Sharma</h3>
-        <h6 onClick={() => (window.location.href = "https://blog.rsharma.in")}>
-          blog.rsharma.in
+        <h6 onClick={() => (window.location.href = "https://rasharma.hashnode.dev")}>
+          rasharma.hashnode.dev
         </h6>
         <br />
         <img src={Oop3} />
@@ -180,7 +180,7 @@ const Blog = () => {
         </p>
         <a
           className="button"
-          href="https://blog.rsharma.in/object-oriented-programming-c-inheritance-or-the-easy-way-part-iii"
+          href="https://rasharma.hashnode.dev/object-oriented-programming-c-inheritance-or-the-easy-way-part-iii"
           target="_blank"
         >
           Read more on Hashnode

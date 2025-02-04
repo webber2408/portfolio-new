@@ -1,0 +1,11 @@
+.themeColor-title {
+    margin: 20px 0px 5px 0px;
+    color: #fff;
+    font-size: 20px;
+}
+
+select {
+    cursor: pointer;
+    width: 150px;
+    height: 24px;
+}

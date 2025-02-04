@@ -17,13 +17,13 @@
 }
 .about-text > h3 {
   font-size: 30px;
-  color: #db7030;
+  color: var(--primary-color);
   line-height: 30px;
   margin: 20px 0 5px 0;
 }
 .about-text > h5 {
   font-size: 20px;
-  color: #db7030;
+  color: var(--primary-color);
   line-height: 20px;
   margin: 5px 0 5px 0;
 }
