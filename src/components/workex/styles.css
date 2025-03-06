@@ -1,11 +1,18 @@
 @import "../../common/styles.css";
 
+
 .workex-content-wrapper {
   margin-bottom: 10px;
 }
 
 .workex-content-wrapper > h6 {
   font-weight: bold;
+}
+
+.workex-content-wrapper  a {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 920px) {

@@ -1,0 +1,130 @@
+{
+    "blogs": [
+        {
+            "title": "Frontend Optimizations @ Tatari | By Rahul Sharma",
+            "subLink": "https://eng.tatari.tv/engineering/2022/08/15/fe-optimizations-at-tatari.html",
+            "subText": "https://eng.tatari.tv/",
+            "img":"blog_tatari.png",
+            "description": "With a growing frontend codebase incorporating various external libraries, we noticed an increase in our bundle sizes and build times. This alarming trend (along with the subpar Lighthouse rating of 49, attached below) led us to undertake a project focused on a series of frontend enhancements and optimizations, which we will cover in this blog.",
+            "blogLink": "https://eng.tatari.tv/engineering/2022/08/15/fe-optimizations-at-tatari.html",
+            "blogLinkText": "Read more"
+        },
+        {
+            "title": "How browser rendering works? | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_browser_rendering.png",
+            "description": "The entire browser rendering process happens in a few milliseconds, but it involves a lot of steps <b>(Critical Rendering Path)</b>. <br/> The <i>Critical Rendering Path</i> (CRP) refers to the sequence of steps a browser takes to convert HTML, CSS, and JS into pixels on the screen. Optimizing this path is crucial for improving page load performance and ensuring a smooth experience.",
+            "blogLink": "https://medium.com/@everythingwebber/how-browser-rendering-works-aeaa408bcb91",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "How script executions and other APIs affect browser rendering? | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_script_execution.png",
+            "description": "Scripts can block rendering by pausing HTML parsing until execution completes. Using async or defer helps prevent blocking and improves performance. DOM manipulations like innerHTML and document.createElement() trigger reflows and repaints, impacting rendering speed. document.write() is synchronous and can delay page loading. MutationObservers and stylesheets also influence rendering by affecting layout recalculations.",
+            "blogLink": "https://medium.com/@everythingwebber/how-script-executions-and-other-apis-affect-browser-rendering-ea1edd7b6ab0",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "What happens when you type something in URL search bar? | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_url.png",
+            "description": "A URL (Uniform Resource Locator) is a standardized address used to locate resources on the internet. These resources can be webpages, images, videos, files or even APIs. Think of it as the “address” you type into a browser to visit a website or retrieve a file.",
+            "blogLink": "https://medium.com/@everythingwebber/what-happens-when-you-type-something-in-url-search-bar-ad7fe054441f",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "How `document.write()` slows you down! | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_document_write.png",
+            "description": "document.write() is a synchronous API that modifies the document during parsing, blocking rendering and slowing down page load. When used after loading, it overwrites the entire document, causing performance issues. Modern browsers discourage its use due to its blocking nature. Instead, dynamic DOM manipulation methods are recommended. The article also covers other rendering-affecting APIs like innerHTML, MutationObserver, and script execution optimizations.",
+            "blogLink": "https://medium.com/@everythingwebber/how-document-write-slows-you-down-28bb37a21681",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "React Vs Lit — Detailed Comparison | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_react_lit.png",
+            "description": "<b>React</b> uses Virtual DOM to efficiently update and render components, has a component-based architecture, and enables reusability of web components. It also supports state management, hooks, and seamless integration with other libraries. <br/><br/> <b>Lit</b> is also a lightweight JS library for building fast and reusable web components. It leverages modern web standards like custom elements and Shadow DOM — We will learn about all of these in the sections / articles mentioned below. With efficient reactivity and minimal overhead, Lit ensures high performance. Moreover, it simplifies state management and styling while maintaining a small footprint.",
+            "blogLink": "https://medium.com/@everythingwebber/react-vs-lit-step-by-step-guide-e2bc24cc40d4",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "React vs Lit (Part-2) — Virtual vs Shadow DOM | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_dom.png",
+            "description": "React uses a Virtual DOM to efficiently update UI by re-rendering components based on state changes. It requires an initial root element div#root and relies on react-dom for rendering. <br/> <br/> Lit directly updates only the changed parts of the DOM, avoiding Virtual DOM diffing. It leverages Web Components and Shadow DOM, making updates more predictable and efficient.",
+            "blogLink": "https://medium.com/@everythingwebber/react-vs-lit-part-2-virtual-vs-shadow-dom-cbbdd39857d3",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "React vs Lit (Part-3)— Properties & States | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_prop_state.png",
+            "description": "In <b>React</b>, props are immutable and passed from parent to child, while state is managed internally with useState or this.setState. It triggers automatic re-renders when props or state change and uses one-way data binding but allows manual two-way binding, whereas, in <b>Lit</b> properties are reactive and can sync with attributes unless attribute: false is set. Unlike React, properties in Lit are mutable within the component. It leverages Shadow DOM for encapsulation and optimized rendering while also following one-way data binding with manual two-way binding setup.",
+            "blogLink": "https://medium.com/@everythingwebber/react-vs-lit-part-3-properties-states-421161831e88",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "React vs Lit (Part-4) — Styling | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_styling.png",
+            "description": "<b>React</b> offers multiple styling methods, including inline styles, CSS modules, and styled components, providing flexibility but requiring careful management to avoid global conflicts. <b>Lit</b>, on the other hand, leverages Shadow DOM for automatic style encapsulation, preventing unintended style leakage. React’s inline styles have high specificity but lack dynamic capabilities like pseudo-classes, whereas Lit uses selectors like `<i>:host</i>`, `<i>::slotted</i>`, and `<i>::part</i>` for enhanced control. While React provides more diverse styling approaches, Lit ensures better isolation and consistency within web components. Ultimately, the choice depends on the need for flexibility versus built-in encapsulation.",
+            "blogLink": "https://medium.com/@everythingwebber/react-vs-lit-part-4-styling-b7a53c276ac8",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "Blockchain Architecture | By Rahul Sharma",
+            "subLink": "https://learndapp.in",
+            "subText": "learndapp.in",
+            "img": "blog_blockchain_architecture.png",
+            "description": "As seen above, in the blockchain (list of blocks), every block starting from the head block (a.k.a genesis block) is linked with the next block using a pointer. Hence, every block should have some space to save the details of the next block, isn't it? so that the list grows. This tells us that a block does not only store transaction details but also stores some other information too (regarding its structure?)",
+            "blogLink": "https://www.learndapp.in/docs/blockchain_architecture",
+            "blogLinkText": "Read more on LearnDapp"
+        },
+        {
+            "title": "Need of Blockchain | By Rahul Sharma",
+            "subLink": "https://learndapp.in",
+            "subText": "learndapp.in",
+            "img": "blog_blockchain_need.png",
+            "description": "Imagine if you wanted to transfer some funds to your friend. Ideally, you would initiate the transaction and would wait for the bank to verify the amount, deduct it from your account and credit it to your friend's account. Isn't it? <br /> But what if one day, your bank fails!? It is not a usual case, but there are possibilities of such happening. <br /> What if I tell you that there is no need for you to check up on the bank servers, whether they are down or up? <br /> What if there is no need to pay fixed transaction fees on your transfer? What if you have the power to choose your transaction fees? How amazing would that be?",
+            "blogLink": "https://www.learndapp.in/docs/why_do_we_need_blockchain",
+            "blogLinkText": "Read more on LearnDapp"
+        },
+        {
+            "title": "Object-Oriented Programming (Part I) | By Rahul Sharma",
+            "subLink": "https://rasharma.hashnode.dev",
+            "subText": "rasharma.hashnode.dev",
+            "img": "blog_oop1.png",
+            "description": "We have been battling with learning Object-Oriented Programming from various resources, be it textbooks, online materials, videos, and so on. We somehow grasp the concept, but when it comes to the interview, we are stuck with one simple yet unanswerable question. <br /> 'How will I revise my OOP concept now? I definitely can’t go through all of my previous resources!'",
+            "blogLink": "https://rasharma.hashnode.dev/object-oriented-programming-c-the-easy-way-part-i",
+            "blogLinkText": "Read more on Hashnode"
+        },
+        {
+            "title": "Object-Oriented Programming (Part II) | By Rahul Sharma",
+            "subLink": "https://rasharma.hashnode.dev",
+            "subText": "rasharma.hashnode.dev",
+            "img": "blog_oop2.png",
+            "description": "What’s up fellas? This what you see is the second part of my Object-Oriented Programming concepts series. I would be covering some interesting stuff including Copy Constructors, Friend functions, Structs and many more. <br /> Did you know that we could copy our constructors? <br /> If we go by the literal definition, a Copy Constructor simply means an overloaded constructor used to declare and initialize an object of a particular class from another object of the same class.",
+            "blogLink": "https://rasharma.hashnode.dev/object-oriented-programming-c-the-easy-way-part-ii",
+            "blogLinkText": "Read more on Hashnode"
+        },
+        {
+            "title": "Object-Oriented Programming (Part III) | By Rahul Sharma",
+            "subLink": "https://rasharma.hashnode.dev",
+            "subText": "rasharma.hashnode.dev",
+            "img": "blog_oop3.png",
+            "description": "We need inheritance because no one wants to redo/reimplement a function that has already been implemented! I mean who would want that? <br /> Reusability is one of the most important features of Inheritance. It is not always about doing extra work but the already done work might have also been tested well for any bugs and you obviously don’t want to go through that painful cycle again! Hence, just Reuse.",
+            "blogLink": "https://rasharma.hashnode.dev/object-oriented-programming-c-inheritance-or-the-easy-way-part-iii",
+            "blogLinkText": "Read more on Hashnode"
+        }
+    ]
+}

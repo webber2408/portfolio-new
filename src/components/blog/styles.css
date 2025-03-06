@@ -8,6 +8,10 @@
   font-weight: bold;
 }
 
+.blog {
+  margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 920px) {
   .blog-wrapper {
     padding-top: 80px !important;

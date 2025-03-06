@@ -18,7 +18,18 @@ const WorkEx = () => {
         </h3>
         <h6>NATICK, MA, USA | JUNE 2022 - AUGUST 2022</h6>
         <br />
-        <p>Control Design Automation, DAStudio Team</p>
+        <ul>
+            <li>
+              Led the migration and enhancement of Simulink mockup in LitElement, improving modularity and maintainability.
+            </li>
+            <li>
+              Spearheaded <b>development and testing of web widgets for Simulink Web</b>, ensuring keyboard and screen reader accessibility (WCAG compliance).
+            </li>
+            <li>
+              Improved menu rendering latency by <b>61% (259 ms → 100 ms)</b> by leading test architecture refactoring 
+              and event-driven performance enhancements, scaling impact across <b>20+</b> downstream teams and <b>~200k</b> Simulink Editor Users.
+            </li>
+          </ul>
         <br />
         <br />
         <h3>
@@ -27,19 +38,16 @@ const WorkEx = () => {
         </h3>
         <h6>SAN FRANCISCO, CA, USA | JUNE 2022 - AUGUST 2022</h6>
         <br />
-        <p>
-          Involved in the migration from a single planner dashboard to multiweek
-          dashboard. <br />
-          Working on overall web optimization incorporating code-splitting
-          within the app using Webpack splitchunks and React.lazy().
-          <br />
-          Recomissioned Version Notifier using Webpack to notifiy users of any
-          new updates pushed to the app.
-          <br />
-          Working on improving the overall build process and reducing the time
-          taken by the same. Analyzing/Researching through MVP of various
-          bundlers involving Webpack, Vite, Rollup, etc.
-        </p>
+        <ul>
+          <li>Developed a Multi-Week Dashboard using React.js, Context API, and Redux, thus enhancing data visualization.</li>
+          <li>
+              Optimized bundle size <b>(60% reduction)</b> and first contentful paint <a href="https://eng.tatari.tv/engineering/2022/08/15/fe-optimizations-at-tatari.html" target="_blank">(80% improvement, 2.5s → 0.5s)</a>, 
+              boosting user experience.
+          </li>
+          <li> 
+            <a href="https://www.linkedin.com/posts/rahul2408_frontend-optimizations-at-tatari-activity-6969343962201346048-Dgqo?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAByFr6cBY62uAabFr2OpYbD6v_LApEEgD4A" target="_blank">Received recognition from leadership</a> for performance improvements.
+          </li>
+        </ul>
         <br />
         <br />
         <h3>
@@ -48,15 +56,12 @@ const WorkEx = () => {
         </h3>
         <h6>GURUGRAM, INDIA | OCTOBER 2020 - JULY 2021</h6>
         <br />
-        <p>
-          Developed consumable APIs using Nest.js & reusable web components/user
-          dashboards using React.js and Next.js.
-          <br />
-          Mentored Front-End team on efficient use of React.js to create
-          scalable components.
-          <br />
-          Led hiring process for Front-End & Full Stack Roles.
-        </p>
+        <ul>
+          <li>
+            Worked on central user and product state management, heavily involved in developing reusable web components in React. 
+            Mentored FE team on following best practices while creating scalable web components & led hiring process for Full Stack Roles.
+          </li>
+        </ul>
         <br />
         <br />
         <h3>
@@ -65,22 +70,17 @@ const WorkEx = () => {
         </h3>
         <h6>NEW DELHI, INDIA | FEBRUARY 2019 - MARCH 2020</h6>
         <br />
-        <p>
-          Collaborated with fellow developers to revamp existing Transaction
-          Flow, develop Investment Summary Dashboard to track and visualize
-          investments. Implemented Bank Reconciliation System to bulk import
-          transactions. <br />
-          Improved overall WebApp performance by implementing it as a
-          Progressive Web App (PWA) and used improved caching strategies for
-          assets & APIs.
-          <br />
-          Delivered brown-bag sessions & tech talk on MongoDB, React.js Vs
-          Angular.js.
-          <br />
-          Working on improving the overall build process and reducing the time
-          taken by the same by analyzing/researching through MVP various
-          propsects of various bundlers involving Webpack, Vite, Rollup, etc.
-        </p>
+        <ul>
+          <li>
+            Redesigned the Transaction Flow and built an Investment Summary Dashboard for tracking investments.
+          </li>
+          <li>
+            Implemented a Bank Reconciliation System for bulk transaction imports and <b>improved PWA caching strategies.</b>
+          </li>
+          <li>
+            Delivered tech talks on MongoDB, <a href="https://medium.com/@everythingwebber/react-vs-lit-step-by-step-guide-e2bc24cc40d4">React.js vs Lit.js</a>, and Redux vs Redux-Toolkit.
+          </li>
+        </ul>
         <br />
         <br />
         <h3>

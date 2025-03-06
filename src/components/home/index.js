@@ -39,9 +39,13 @@ const Home = () => {
             A Software Engineer by profession and an eager learner from the
             heart. <br /> My introduction to the Computer Science field was made
             during my inquisitive childhood years, where I was curious to
-            understand how my favorite 'fly-on click helicopter ' game worked!
-            Ever since then, I dreamt of diving deep into this field and here I
-            am building scalable and optimized web portals.
+            understand how my favorite 'fly-on click helicopter' game worked!
+          </p>
+          <p>
+            I am a results-driven Software Engineer specializing in front-end technologies 
+            with expertise in building scalable, high-performance web applications. 
+            Proven ability to optimize performance, enhance accessibility (WCAG), and lead cross-team initiatives.
+            Committed to driving code quality, reusability, and engineering best practices.
           </p>
 
           <a
@@ -51,8 +55,8 @@ const Home = () => {
           >
             View Resume
           </a>
-          <a className="button" href="https://learndapp.in" target="_blank">
-            LearnDapp.in
+          <a className="button" href="https://medium.com/@everythingwebber" target="_blank">
+            Blog | Medium
           </a>
           {/* <a
             className="button"
@@ -63,6 +67,9 @@ const Home = () => {
           </a> */}
           <a className="button" href="https://rasharma.hashnode.dev/" target="_blank">
             Blog | Hashnode
+          </a>
+          <a className="button" href="https://learndapp.in" target="_blank">
+            Blog | LearnDapp.in
           </a>
           {/* <a
             className="button"
