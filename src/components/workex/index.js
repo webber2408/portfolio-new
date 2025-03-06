@@ -51,7 +51,7 @@ const WorkEx = () => {
         <br />
         <br />
         <h3>
-          Software Engineer (L1) - Full Stack{" "}
+          Software Engineer (L1) - FrontEnd{" "}
           <span className="colored-text"> @ Squareboat</span>
         </h3>
         <h6>GURUGRAM, INDIA | OCTOBER 2020 - JULY 2021</h6>
@@ -65,7 +65,7 @@ const WorkEx = () => {
         <br />
         <br />
         <h3>
-          Software Engineer - Full Stack{" "}
+          Software Engineer - FrontEnd{" "}
           <span className="colored-text"> @ Fundwave</span>
         </h3>
         <h6>NEW DELHI, INDIA | FEBRUARY 2019 - MARCH 2020</h6>
