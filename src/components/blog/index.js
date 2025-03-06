@@ -10,7 +10,7 @@ const Blog = () => {
   return (
     <section className="blog-wrapper cm-portfolio-section" id={tabs.BLOG.link}>
       <h2>Latest from the blog</h2>
-      <p className="sub-title">Learn Decentralized Application Programming</p>
+      <p className="sub-title"></p>
       <div className="blog-content-wrapper">
         {
           data?.blogs?.map((blog, index) => {
