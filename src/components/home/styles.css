@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.home-wrapper .portrait {
+  margin-top: 10px;
+}
+
 .about-img {
   margin-right: 30px;
 }
