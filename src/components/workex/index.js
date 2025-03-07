@@ -16,7 +16,7 @@ const WorkEx = () => {
         <h3>
           Software Engineer <span className="colored-text"> @ MathWorks</span>
         </h3>
-        <h6>NATICK, MA, USA | JUNE 2022 - AUGUST 2022</h6>
+        <h6>NATICK, MA, USA | FEBRUARY 2023 - PRESENT</h6>
         <br />
         <ul>
             <li>

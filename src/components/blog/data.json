@@ -37,6 +37,24 @@
             "blogLinkText": "Read more on Medium"
         },
         {
+            "title": "Calculator variations in JS | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_calculator.png",
+            "description": "This article presents four JavaScript calculator variations, each demonstrating a unique programming concept. The <strong>Chain Calculator</strong> uses method chaining for sequential operations, while the <strong>Lazy Calculator</strong> delays execution until explicitly requested. The <strong>Function Composition Calculator</strong> leverages higher-order functions and currying for flexibility. The <strong>Undo/Redo Calculator</strong> introduces state management, allowing users to revert or reapply operations. These implementations highlight key JavaScript patterns, improving modularity and execution control.",
+            "blogLink": "https://medium.com/@everythingwebber/calculator-variations-in-js-82da4c6b8c52",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
+            "title": "All About Promises, but in JS! | By Rahul Sharma",
+            "subLink": "https://medium.com/@everythingwebber/",
+            "subText": "medium.com/@everythingwebber/",
+            "img": "blog_promise.png",
+            "description": "This article explores JavaScript Promises, which represent the eventual completion or failure of asynchronous operations. It explains Promise states—Pending, Fulfilled, and Rejected—along with methods like <strong>.then()</strong>, <strong>.catch()</strong>, and <strong>.finally()</strong> for handling asynchronous execution. The article also covers <strong>Promise.resolve()</strong> and how it interacts with thenables, demonstrating real-world examples. Additionally, it delves into Promise chaining and execution flow, referencing MDN documentation for deeper understanding. This is an ongoing article, inviting readers to check back and provide feedback.",
+            "blogLink": "https://medium.com/@everythingwebber/all-about-promises-but-in-js-1325baec824f",
+            "blogLinkText": "Read more on Medium"
+        },
+        {
             "title": "How `document.write()` slows you down! | By Rahul Sharma",
             "subLink": "https://medium.com/@everythingwebber/",
             "subText": "medium.com/@everythingwebber/",
