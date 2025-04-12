@@ -13,6 +13,28 @@ const Projects = () => {
       <h2>PROJECTS</h2>
       <p className="sub-title">Some of the things that I have worked on!</p>
       <div className="projects-content-wrapper">
+        <h3>Image Rendering Optimizations in DOM</h3>
+        <h6>APRIL 2025</h6>
+        <br />
+        <p>
+          This project showcases modern, performance-focused image loading
+          techniques in web applications using React. It demonstrates how to
+          improve page speed, user experience, and bandwidth usage by smartly
+          selecting image formats, resolutions, and loading strategies—all
+          dynamically based on the user’s device, screen size, and network
+          conditions.
+        </p>
+        <a
+          className="button"
+          href="https://imageio-kappa.vercel.app/"
+          target="_blank"
+        >
+          Live Demo
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
         <h3>
           FrontChain (FT Marketplace){" "}
           <span className="colored-text"> *under Blockchain Applications</span>
